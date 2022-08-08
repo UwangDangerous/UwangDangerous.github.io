@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "My Custom Font";
+    src: url("../font/BarlowSemiCondensed-Regular.ttf") format("truetype");
+}
+
+body { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+.navbar {
+    background-color: rgb(29, 2, 42);
+}
+
+#jumbotron{
+    padding-top: 100px;
+    height: 600px;
+    background-image: url("../img/manuk2.jpg");
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-shadow: 1px 1px #1b1616;
+    font-weight: 400;
+}
+
+#jumbotron img{
+    margin-top: 100px;
+    height: 150px;
+    /* border: 100px;
+    border-radius: 100px;
+    border-color: white; */
+}
